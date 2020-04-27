@@ -6,9 +6,31 @@
 body{
   font-family: Roboto;
 }
-.wrapper_area {
-  background: #F7F7F7;
+
+p{
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Roboto;
 }
+h2{
+  font-size: 45px;
+  line-height: 60px;
+  font-family: Playfair Display ;
+
+}
+.heading{
+  font-weight:900;
+}
+.bp{
+  padding: 60px 0;
+}
+.pt{
+  padding-top: 60px;
+}
+.pb{
+  padding-bottom: 60px;
+}
+
 
 .navigation_area {
   height: 100px;
@@ -36,7 +58,9 @@ body{
   font-family: Roboto;
   text-decoration: none;
 }
-
+.row.navborder {
+  border-bottom: 1px solid #C9C9C9;
+}
 .nav_menu {
   width: 60%;
   float: left;
@@ -87,4 +111,29 @@ body{
   line-height: 35px;
   font-family: Roboto;
   padding: 0 20px;
+}
+
+
+.wrapper_area {
+  background: #F7F7F7;
+  height:375px;
+  display: table;
+  width: 100%;
+}
+.banner_area {
+  display: table-cell;
+  vertical-align: middle;
+  height: 375px;
+}
+.page_link a {
+  color: #F67261;
+  font-size: 24px;
+  font-weight: normal !important;
+  font-family: Roboto;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.hero_title h2 {
+  font-weight: 600;
 }
