@@ -1,0 +1,73 @@
+@mixin headerarea { 
+    background-color:$colorBLue;
+    height: 70px;
+    display: block;
+    width:100%;
+}
+$colorBLue: yellow;
+$color:blue;
+$fontName1: Roboto;
+$fontName2: Lato;
+
+.nemu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+        display: inline-block;
+        line-height: 70px;
+    }
+    a{
+        color: $color;
+        font-size: 20px;
+        font-weight: bold;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-family: $fontName2 ;
+        text-decoration: none;
+    }
+    :hover{
+        color: red;
+    }
+}
+
+.sectionArea{
+     background: url(../img/hero-banner.png);
+     width: 100%;
+     height: 550px;
+     background-size: cover;
+     position: relative;
+     :after{
+         content:'';
+         position: absolute;
+         top: 0;
+         left: 0;
+         background: rgba(0,0,0,.05);
+         height: 550px;
+         z-index: -0;
+         width: 100%;
+     }
+     .hero-banner{
+         width: 100%;
+         height: 550px;
+         display: table;
+        
+         .banner-box{
+             display: table-cell;
+             vertical-align: middle;
+             height: 550px;
+             text-align: center;
+             
+             h2{
+                 color: #fff;
+                 font-size: 40px;
+                 font-weight: bold;
+             }
+             p{
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+             }
+         }
+     }
+}
