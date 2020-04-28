@@ -43,6 +43,8 @@ h2{
 .navigation_area {
   height: 100px;
   line-height: 100px;
+  position: relative;
+  z-index: 9999;
 }
 
 .col-lg-9.navdev {
@@ -126,7 +128,26 @@ h2{
   height:375px;
   display: table;
   width: 100%;
+  position: relative;
 }
+.bannerOverlay{ 
+  position: relative;
+}
+.bannerOverlay:after {
+  content: "";
+  background: url(../img/largbg.png);
+  width: 475px;
+  height: 450px;
+  position: absolute;
+  top: -115px;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+  z-index: 1;
+  background-position: top;
+}
+
 .banner_area {
   display: table-cell;
   vertical-align: middle;
@@ -395,6 +416,17 @@ background:#F67261;
 
 }
 
+
+.tab-style-4.tab-style-5 li:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.tab-style-4.tab-style-5 li:nth-child(2) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .video_details {
   padding-top: 25px !important;
  }
@@ -443,6 +475,17 @@ ul.tabs.tablist {
 
 .tab-style-4.tab6 .tabs_item {
    padding: 10px 0;
+}
+
+
+.tab-style-4.tab-style-5.tab6 li:nth-child(1) {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.tab-style-4.tab-style-5.tab6 li:nth-child(2) {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 
