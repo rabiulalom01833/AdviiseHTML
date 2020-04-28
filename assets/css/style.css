@@ -401,4 +401,47 @@ background:#F67261;
 .video_details.spacetop {
   padding-top: 45px !important;
  }
- 
+ .single_baord h3 {
+  color: #121E33;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.single_baord p {
+  color: #121E33;
+  font-size: 16px;
+}
+
+.tab-style-4.tab-style-5.tab6 {
+  margin-top: 60px;
+}
+.video_details.tabsfounder {
+  padding: 0px 20px !IMPORTANT;
+  margin: 0 !important;
+}
+ul.tabs.tablist {
+  width: 30%;
+  float: left;
+  display: block;
+  margin-left: -15px;
+}
+
+.tab_content.tablistcontent {
+  width: 67%;
+  float: right;
+}
+
+.tab-style-4.tab-style-5.tab6 li{
+  min-width: 100%;
+  margin-bottom: 0;
+}
+
+.tab-style-4.tab-style-5.tab6 .tabs {
+  margin-top: 0;
+}
+
+.tab-style-4.tab6 .tabs_item {
+  display: none;
+  padding: 10px 0;
+}
