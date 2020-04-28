@@ -1,0 +1,88 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav_menu {
+        width: 50%; 
+    }
+    .login_menu {
+        width: 50%; 
+    }
+}
+
+/* All Mobile Devices */
+@media (min-width: 320px) and (max-width: 991.98px) {
+     
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.logo_here img {
+        width: 100%;
+    }
+    .nav_menu {
+        width: 45%;
+        float: left;
+        text-align: left;
+        
+    }
+    .login_menu {
+        width: 55%;
+        float: right;
+    }
+    .login_menu ul li:nth-child(1) a { 
+        width: 65px; 
+    }
+    .login_menu ul li:nth-child(2) a { 
+        padding: 0 7px;
+    }
+    .tab-style-4.tab-style-5 li {
+        width: 50%;
+        margin-bottom: 60px;
+    }
+    .tab_title {
+        width: 49%;
+        background: #F67261;
+    }
+    .imgdiv { 
+        left: 0; 
+    }
+    .tab_title.lastChild {
+        width: 85%;
+    }
+    .single_baord {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .what_next_box {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bp {
+        padding: 20px 0;
+    }
+    .pt{
+        padding-top: 20px;
+    }
+    .pb{
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+
+}
+
+/*  */
+@media (min-width: 320px) and (max-width: 500px) {
+    
+
+}
