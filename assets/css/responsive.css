@@ -221,7 +221,13 @@
         height: 200px; 
     }
 
-
+    .mobile-container {
+        display: block;
+     }
+     .logo_here {
+        display: none;
+    }
+  
 
 }   
 

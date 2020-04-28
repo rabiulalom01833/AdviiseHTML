@@ -620,3 +620,45 @@ ul.tabs.tablist {
 
 
 
+.mobile-container {
+   display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#F7F7F7;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  background: #ff7261;
+}
+
+.topnav a {
+  color: white;
+  padding: 0 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  line-height: 50px;
+  border-bottom: 1px solid;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.logo_heres.actives {
+  width: 200px !important;
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+.logo_heres.actives img {
+  width: 100%;
+}
