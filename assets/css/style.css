@@ -67,7 +67,22 @@ h2{
   font-size: 16px;
   font-family: Roboto;
   text-decoration: none;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
 }
+
+.nav_menu ul li a:hover {
+  color: #F67261;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
+}
+
 .row.navborder {
   border-bottom: 1px solid #C9C9C9;
 }
@@ -106,7 +121,24 @@ h2{
   text-align: center;
   line-height: 35px;
   font-family: Roboto;
+  position: relative;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
 }
+
+.login_menu ul li:nth-child(1) a:hover {
+  background: #000;
+  color: #fff;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
+}
+
 
 .login_menu ul li:nth-child(2) a {
   background: #F67261;
@@ -121,8 +153,22 @@ h2{
   line-height: 35px;
   font-family: Roboto;
   padding: 0 20px;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
 }
 
+.login_menu ul li:nth-child(2) a:hover {
+  background: #000;
+  color: #fff;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
+}
 
 .wrapper_area { 
   height:375px;
@@ -595,6 +641,19 @@ ul.tabs.tablist {
   color: #FFFFFF;
   font-size: 16px; 
   text-decoration: none;
+  transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
+}
+.footer_nav ul li a:hover{
+   color: #F67261;
+   transition: all ease 500ms;
+   -webkit-transition: all ease 500ms;
+   -moz-transition: all ease 500ms;
+   -ms-transition: all ease 500ms;
+   -o-transition: all ease 500ms;
 }
 
 .footer_nav ul li:last-child {
