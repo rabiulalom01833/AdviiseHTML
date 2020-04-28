@@ -442,6 +442,102 @@ ul.tabs.tablist {
 }
 
 .tab-style-4.tab6 .tabs_item {
-  display: none;
-  padding: 10px 0;
+   padding: 10px 0;
+}
+
+
+.site_offer.bp {
+  background: #F67261;
+  text-align: center;
+}
+
+.site_offer h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+ 
+.site_offer.bp p {
+  color: #fff;
+  font-size: 26px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.what_next.bp {
+  background: #121E33;
+}
+
+.black_title h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.what_next_box {
+  border: 1px solid #303E57;
+  height: 200px;
+  text-align: center;
+  padding: 45px;
+}
+
+.what_next_box h3 {
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.what_next_box p {
+  font-family: Playfair Display;
+  font-size: 16px;
+  color: #fff;
+}
+
+.what_next_box p a {
+  color: #F67261;
+}
+
+
+.footer_menu {
+  background: #101927;
+}
+
+.footer_nav {
+  text-align: center;
+}
+
+.footer_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer_nav ul li {
+  display: inline-block;
+  border-right: 1px solid #fff;
+  padding: 0 10px;
+}
+
+.footer_nav ul li a {
+  color: #FFFFFF;
+  font-size: 16px; 
+  text-decoration: none;
+}
+
+
+
+.footer_nav ul li {
+  border-radius: 0px soild !IMPORTANT;
+}
+
+.copy_right {
+  background: #000000;
+  height: 60px;
+}
+
+.copyright p {
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
 }
